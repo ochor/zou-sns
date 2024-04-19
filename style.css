@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{}
+        html{
+            margin: 0 auto;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        body{
+            background-color:darkgreen;
+            /*background-image: linear-gradient(to left, rgb(214, 252, 214), white);*/
+            /*background-image: url(./images/꾳3.jpg);
+              background-size: cover;*/
+            width: 100%;
+            height: 100%;
+            /*position: relative;*/
+            }
+        article{
+            border-radius: 30px;
+            border: 10px solid wheat;
+            /*background-color: aqua;*/
+            width: 800px;
+            height: 1000px;
+            transform: translateX(65%);
+            /*display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: ;
+            padding-left: ;*/
+            /*position: absolute;
+            left: 500px;
+            top:;*/
+            /*float: left;
+            margin-left: 500px;
+            padding-left: ;*/
+        }
+        h3, p{
+            text-align: center;
+        }
+        img{
+            border-radius: 50%;
+            border: 5px groove darkgreen;
+            transform: translateX(55%);
+            /*margin-left: 80px;*/
+            width: 360px;
+            box-shadow: 2px 5px 5px darkgreen;
+            margin-bottom: 50px;
+        }
+        button{
+            width: 600px;
+            height: 60px;
+            margin-left: 100px;
+            margin-bottom: 20px;
+            padding: 5px;
+            color: white;
+            font-size: 20pt;
+            font-weight: bold;
+            font-family: 'TTLaundryGothicB';
+            border-radius: 20px;
+            border: 3px;
+            border-style: dotted;
+            border-color: yellow;
+            background-color: darkgreen;
+        }
+        button:hover{
+            border-color: rgb(108, 7, 240);
+            background-color: rgb(214, 240, 218);
+            color: darkgreen;
+        }
+        h3{
+            font-size: 40pt;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        p{
+            margin-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 20pt;
+        }
